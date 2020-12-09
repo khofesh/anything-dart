@@ -19,5 +19,5 @@ void main() {
 
   stdout.writeln('Greet somebody');
   String input = stdin.readLineSync();
-  return helloDart(input);
+  helloDart(input);
 }
